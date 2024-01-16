@@ -6,7 +6,7 @@ import helmet from "helmet";
 import cors from "cors";
 import http from "http";
 import router from "./router/index";
-import { AppError } from "utils/error/AppError";
+import { AppError } from "./utils/error/AppError";
 
 dotenv.config();
 
